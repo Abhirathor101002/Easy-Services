@@ -6,7 +6,7 @@
         <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="New Price" max_length="20" name="u_price_9" read_only="true" type="price"/>
         <element attributes="edge_encryption_enabled=true" label="Quantity" max_length="40" name="u_quantity" type="string"/>
         <element attributes="encode_utf8=false" label="New Reference" max_length="32" name="u_reference_2" reference="cmdb_multisource_deny_class" type="reference"/>
-        <element attributes="encode_utf8=false" label="Requester Name" mandatory="true" max_length="32" name="u_requester_name" reference="cmdb_multisource_deny_class" type="reference"/>
+        <element attributes="encode_utf8=false" label="Requester Name" mandatory="true" max_length="32" name="u_requester_name" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_7" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Model" max_length="255" name="u_string_model" read_only="true" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" label="Warranty Expiration" max_length="40" name="u_warrenty_experi_device_detail" read_only="true" type="glide_date"/>
